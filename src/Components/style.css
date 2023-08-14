@@ -1,0 +1,90 @@
+.navbarContainer{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    box-shadow: inset 0 -7px 9px -7px rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+     background-color: aliceblue;
+   /* z-index: 1; */
+
+   
+  }
+  .right{
+    float: right;
+    position: absolute;
+    top:10px;
+    right:5rem;
+    display: flex;
+  }
+
+  .zero{
+    width: 2rem;
+    height: 2rem;
+    background-color:#DA6A00;
+    margin-left: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    margin-top: 5px;
+  }
+.bannarbox{
+    width: 90%;
+    height: 60vh;
+    background-image: url('https://www.moengage.com/wp-content/uploads/2020/07/5-E-commerce-Technology-Trends-That-Will-Shape-The-Future-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+margin-top: 4.2rem;
+
+} 
+.textData{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding-top: 9rem; 
+    font-size: 1.5rem;
+    color: #DA6A00;
+}
+/* products */
+.products{
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.productss{
+  padding: 0 12px;
+}
+.product_img img{
+  width: 19.5rem;
+  height: 50vh;
+
+}
+.product_name h3{
+  text-align: center;
+}
+.product_price{
+  text-align: center;
+}
+.addToCard button{
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  background-color: #DA6A00;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+
+}
+.logo{
+  text-decoration: none;
+  color:#DA6A00;
+}
+
